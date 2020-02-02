@@ -5,3 +5,5 @@ def euclids(x,y):
         return x
     else:
         return euclids(y, x%y)
+
+print(euclids(3125,325))
